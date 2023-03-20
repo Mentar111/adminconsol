@@ -1,0 +1,57 @@
+.nav_main{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: rgb(9, 14, 143);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.padding_top{
+    padding-top: 70px;
+}
+
+.nav .nav-link{
+    color: white !important;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #2040a0;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.25rem;
+}
+
+i{
+   font-size: 20px;
+   
+}
+
